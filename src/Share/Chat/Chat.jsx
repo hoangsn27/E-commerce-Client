@@ -6,7 +6,7 @@ import ChatRoomsAPI from "../../API/ChatRoomsAPI";
 import { useSelector } from "react-redux";
 
 import io from "socket.io-client";
-const socket = io("https://e-commerce-server-jyba.onrender.com", {
+const socket = io("https://e-commerce-server-pxyx.onrender.com", {
   transports: ["websocket"],
 });
 

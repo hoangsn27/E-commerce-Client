@@ -4,7 +4,7 @@ import HistoryAPI from "../../API/HistoryAPI";
 import queryString from "query-string";
 import Image from "../../Share/img/Image";
 import io from "socket.io-client";
-const socket = io("https://e-commerce-server-tw4l.onrender.com", {
+const socket = io("https://e-commerce-server-pxyx.onrender.com", {
   transports: ["websocket"],
 });
 

@@ -6,7 +6,9 @@ import CheckoutAPI from "../API/CheckoutAPI";
 import convertMoney from "../convertMoney";
 
 import io from "socket.io-client";
-const socket = io("http://localhost:5000", { transports: ["websocket"] });
+const socket = io("https://e-commerce-server-pxyx.onrender.com", {
+  transports: ["websocket"],
+});
 
 function Checkout(props) {
   const token = localStorage.getItem("token");
